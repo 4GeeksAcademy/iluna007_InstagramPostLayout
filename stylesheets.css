@@ -20,8 +20,8 @@ h3{
 
 body {
     background: #000000;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 .container {
@@ -33,8 +33,8 @@ body {
 }
 .post {
     background-color: white;
-    width: 225px;
-    height: 450px;
+    width: 250px;
+    height: 100%;
 
 }
 
@@ -57,7 +57,9 @@ body {
     align-items: center;
 }
 
-.item121 {
+.item12 {
+    display: flex;
+    flex-direction: column;
     margin: 0px;
 } 
 
@@ -110,7 +112,7 @@ ion-icon:hover{
     margin: 10px;
 }
 
-/* {
+* {
     border: 1px dashed red;
     min-height: 10px;
 }
